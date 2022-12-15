@@ -13,7 +13,7 @@ This repo exists for experimenting with the Rust framework that was introduced i
 
 1. Fetch kernel sources
 
-First, fetch the kernel sources and verify that the Rust toolchain is configured correctly:
+First, fetch the Linux kernel source code
 
 ```
 $ make fetch-source
@@ -49,5 +49,5 @@ $ make build-kernel
 Finally, build the kernel module:
 
 ```
-$ make kmod-build
+$ make build-kmod
 ```
