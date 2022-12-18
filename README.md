@@ -8,6 +8,7 @@ This repo exists for experimenting with the Rust framework that was introduced i
 * make
 * tar
 * curl
+* libvirt-daemon
 
 ## Development
 
@@ -50,4 +51,24 @@ Finally, build the kernel module:
 
 ```
 $ make build-kmod
+```
+
+## Testing
+
+1. Create a password file:
+
+```
+$ echo -n "PASSWORD" > .vmpasswd
+```
+
+2. Build the VM image:
+
+```
+$ sudo ./build-vm.sh
+```
+
+3. Enter the VM
+
+```
+$ sudo ./enter-vm.sh
 ```

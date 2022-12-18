@@ -15,3 +15,12 @@ Cargo.lock
 /target
 
 /linux-rust/
+.vmpasswd
+*.swp
+*.cmd
+*.ko
+*.o
+*.symvers
+*.order
+*.mod
+*.mod.c
